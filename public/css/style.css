@@ -1,12 +1,19 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'montserrat', serif;
 }
 
+  h1 {
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
+    text-transform: uppercase;
     text-transform: uppercase;
   }
 
@@ -34,9 +41,6 @@ h1,h2,h3,h4,h5,p{
   background-color: #333;
 }
 
-.button:hover{
-  background-color: #111;
-}
 
 a{
   color: #333;
@@ -147,4 +151,20 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.linkedin:hover {
+  background: #4875B4;
+}
+
+.github:hover {
+  background: #6e5494;
+}
+
+.twitter:hover {
+  background: #33CCFF;
+}
+
+.shrink .thumbnail  {
+  border-radius: 50%;
 }
