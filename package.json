@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/DatPhamQuoc/techdegree-project-6#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "nodemon": "^1.19.1",
     "pug": "^2.0.4"
   }
